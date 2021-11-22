@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/LG/Desktop/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.11119554204660588" />
+        <entry key="..\:/Users/admin/BuffFront/app/src/main/res/drawable/ic_baseline_directions_bus_24.xml" value="0.1" />
+        <entry key="..\:/Users/admin/BuffFront/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1" />
+        <entry key="..\:/Users/admin/BuffFront/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/admin/BuffFront/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1" />
+        <entry key="..\:/Users/admin/BuffFront/app/src/main/res/layout/activity_login.xml" value="0.16388044579533942" />
+        <entry key="..\:/Users/admin/BuffFront/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Welcome!"
+                android:textColor="#333"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="아이디를 입력하세요"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#333"
+                android:textColorHint="#333"
+                android:id="@+id/idText"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:layout_marginTop="50dp"/>
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="비밀번호를 입력하세요"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#333"
+                android:textColorHint="#333"
+                android:id="@+id/passwordText"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:layout_marginTop="50dp"/>
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="전화번호를 입력하세요"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#333"
+                android:textColorHint="#333"
+                android:id="@+id/phoneText"
+                android:drawableStart="@drawable/ic_baseline_phone_24"
+                android:drawableLeft="@drawable/ic_baseline_phone_24"
+                android:layout_marginTop="50dp"/>
+
+            <Button
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="#333"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="가입하기"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/registerButton"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

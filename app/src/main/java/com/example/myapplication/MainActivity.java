@@ -19,22 +19,29 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        //메인이미지
         ImageView bg_gif = (ImageView) findViewById(R.id.main_bg);
         GlideDrawableImageViewTarget gifImage = new GlideDrawableImageViewTarget(bg_gif);
         Glide.with(this).load(R.drawable.background).into(gifImage);
 
+        //로그인페이지로 이동
         loginBtn = (Button) findViewById(R.id.login_btn);
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openNewActivity();
+                Intent loginIntent = new Intent(MainActivity.this,LoginActivity.class);
+                MainActivity.this.startActivity(loginIntent);
             }
         });
+
+        //회원가입 페이지로 이동
         Button register = (Button) findViewById(R.id.register_btn);
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "[회원 등록 페이지]준비중", Toast.LENGTH_SHORT).show();
+                Intent registerIntent = new Intent(MainActivity.this,RegisterActivity.class);
+                MainActivity.this.startActivity(registerIntent);
             }
         });
     }
